@@ -1,0 +1,41 @@
+{
+    
+    "readMore":"Read more",
+
+    "nav1": "About",
+    "nav2": "Skill",
+    "nav3": "Certificate",
+    "nav4": "Experience",
+
+
+
+
+    "Hello" : "Hello, I'M",
+    "Nickname": "FLUKE",
+    "info1": "I'm web developer ",
+    "info2": "Adobe AI / PS / PR / AE ",
+    "info3": "FRONT END, API, UX/UI, etc.",
+
+
+    "intro" : "Introduction",
+    "introHead": "Overview",
+    "aboutP1": "I want to be a Font-End Developer to create impressive web applications and use new technologies to create the best web applications for users.",
+    "aboutP2": "My biggest dream right now is to be a Full Stack Developer. And now, even though I have graduated, I am still taking additional courses to achieve my dream.",
+
+
+    "skill" : "Skill",
+    "ability" : "Ability",
+    "skillP1" : "The ability to perform tasks effectively, developed through practice and experience.",
+
+
+    "achievement": "Achievement",
+    "certificate": "Certificate",
+    "cerP1": "This certificate represents my achievements and dedication to personal growth and education.",
+    "showMore": "SHOW MORE",
+    "showLess": "SHOW LESS",
+
+
+    "insight":"Insight",
+    "experience":"Experience",
+    "expP1":"The knowledge or skills gained through direct involvement in events or activities."
+}
