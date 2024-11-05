@@ -60,7 +60,7 @@ const ExCardEN = ({ item }) => {
             className="mt-2 rounded-md bg-gray-700 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow-lg focus:shadow-none hover:bg-slate-200 hover:text-black active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             type="button"
           >
-            more
+            Watch
           </button>
         </a>
       </div>
@@ -113,7 +113,7 @@ const ExCardTH = ({ item }) => {
             className="mt-2 rounded-md bg-gray-700 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow-lg focus:shadow-none hover:bg-slate-200 hover:text-black active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
             type="button"
           >
-            เพิ่มเติม
+            ดูเพิ่มเติม
           </button>
         </a>
       </div>
