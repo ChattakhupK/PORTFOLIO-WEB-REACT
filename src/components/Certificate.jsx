@@ -41,7 +41,7 @@ const Certificate = ({ t }) => {
   };
 
   return (
-    <div id={t("nav3")} className="about-head">
+    <div id={t("nav3")} className="about-head max-w-calc-customSM md:max-w-calc-customMD lg:xl:max-w-calc-customLG xl:max-w-calc-customXL">
       <div className="sectionSubText">{t("achievement")}</div>
       <h2 className="sectionHeadText">{t("certificate")}</h2>
       <div className="about-text">{t("cerP1")}</div>

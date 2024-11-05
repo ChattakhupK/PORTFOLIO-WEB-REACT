@@ -120,11 +120,12 @@
 
 .about-head {
   padding: 10px 6px; /* Default padding values */
-  max-width: calc(100% - 20rem); /* Adjust the value according to your needs */
+  /* max-width: calc(100% - 20rem); Adjust the value according to your needs */
   margin: 0 auto;
   position: relative;
   z-index: 0;
 }
+
 
 @media (min-width: 640px) {
   .myElement {

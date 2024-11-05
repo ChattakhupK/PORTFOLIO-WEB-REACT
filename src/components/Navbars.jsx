@@ -6,7 +6,6 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-scroll";
 import OG from "../assets/OG.png";
-import { useState } from "react";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");

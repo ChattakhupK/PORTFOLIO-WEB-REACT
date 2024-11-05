@@ -96,7 +96,7 @@ const ExCardTH = ({ item }) => {
 const Experience = ({ t, islan }) => {
   return (
     <div id={t("nav4")}>
-      <div className="about-head">
+      <div className="about-head max-w-calc-customSM md:max-w-calc-customMD lg:xl:max-w-calc-customLG xl:max-w-calc-customXL">
         <div className="sectionSubText">{t("insight")}</div>
         <h2 className="sectionHeadText">{t("experience")}</h2>
         <div className="about-text">{t("expP1")}</div>

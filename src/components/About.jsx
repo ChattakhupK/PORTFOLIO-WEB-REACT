@@ -72,7 +72,7 @@ const CardAboutTH = ({ item }) => {
 
 const About = ({ t, islan }) => {
   return (
-    <div id={t("nav1")} className="about-head">
+    <div id={t("nav1")} className="about-head max-w-calc-customSM md:max-w-calc-customMD lg:xl:max-w-calc-customLG xl:max-w-calc-customXL">
       <div className="sectionSubText">{t("intro")}</div>
       <h2 className="sectionHeadText">{t("introHead")}</h2>
       <div className="about-text">

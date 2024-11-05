@@ -19,7 +19,7 @@ import firebase from "../assets/mySkillLogo/Firebase.png";
 import mySql from "../assets/mySkillLogo/Mysql.png";
 const Skill = ({t}) => {
   return (
-    <div id={t('nav2')} className="about-head">
+    <div id={t('nav2')} className="about-head max-w-calc-customSM md:max-w-calc-customMD lg:xl:max-w-calc-customLG xl:max-w-calc-customXL">
       <div className="sectionSubText">{t("skill")}</div>
       <h2 className="sectionHeadText">{t("ability")}</h2>
       <div className="about-text">
