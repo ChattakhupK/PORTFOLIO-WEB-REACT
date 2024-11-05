@@ -13,28 +13,41 @@ import imgCer12 from "../assets/certificate/12.png";
 import imgCer13 from "../assets/certificate/13.png";
 import imgCer14 from "../assets/certificate/14.jpg";
 
+import info1 from '../assets/infopic/1111.png'
+import info2 from '../assets/infopic/2222.png'
+// import info3 from '../assets/infopic/3333.png'
+import info4 from '../assets/infopic/4444.png'
+
+import exp1 from '../assets/exp/image (6).png'
+import exp2 from '../assets/exp/image (5).png'
+import exp3 from '../assets/exp/image (4).png'
+import exp4 from '../assets/exp/image (3).png'
+import exp5 from '../assets/exp/image (2).png'
+import exp6 from '../assets/exp/image (10).png'
+import exp7 from '../assets/exp/image (9).png'
+
 export const servicesEN = [
   {
     title: "FACEBOOK",
-    image: "/src/assets/infopic/1111.png",
+    image: info1,
     link: "https://www.facebook.com/MosT5140?locale=th_TH",
     p: "👋 Hi there! Welcome to my account I’m Chattakhup Kinaubon, and this is where I share my stories, thoughts, and experiences with all of you.",
   },
   {
     title: "GITHUB",
-    image: "/src/assets/infopic/2222.png",
+    image: info2,
     link: "https://github.com/ChattakhupK",
     p: "I’m a passionate developer interested in web development, full stack, etc. Here, you’ll find my projects and contributions that reflect my journey in coding and creativity.",
   },
   // {
   //   title: "TIKTOK",
-  //   image: "/src/assets/infopic/3333.png",
+  //   image: info3,
   //   link: "https://www.tiktok.com/@bugsbunnychinese",
   //   p: "Welcome to my TikTok channel! This is where I share creativity and fun every day through short clips packed with inspiration.",
   // },
   {
     title: "PORTFOLIO",
-    image: "/src/assets/infopic/4444.png",
+    image: info4,
     link: "https://files.fm/f/dxdz5zaggq",
     p: "I hope this portfolio gives you an idea of ​​my skills and abilities. If you are interested in working with me or have any further questions, please feel free to contact me.",
   },
@@ -45,7 +58,7 @@ export const experiencesEN = [
     link: "https://chattakhupk.github.io/BMI.github.io/",
     code_name: "HTML | CSS | JAVASCRIPT",
     iconBg: "#383E56",
-    icon: "/src/assets/exp/image (6).png",
+    icon: exp1,
     date: "December  2023 - January  2024",
     points: [
       "BMI calculator website is straightforward using HTML, CSS, and JavaScript. First, you set up an HTML structure that allows users to input their weight and height. Next, you use CSS to style the page for a clean and user-friendly appearance. Finally, you write JavaScript to calculate the BMI based on the inputs and display the result, including checks for valid input to ensure accurate results.",
@@ -56,7 +69,7 @@ export const experiencesEN = [
     link: "https://www.figma.com/proto/ucgxJ2WNQtmOaykdQA9NVU/LINE-MAN-A1?node-id=25-1754&starting-point-node-id=25%3A914",
     code_name: "FIGMA",
     iconBg: "#383E56",
-    icon: "/src/assets/exp/image (5).png",
+    icon: exp2,
     date: "February  2024 - March  2024",
     points: [
       `
@@ -68,7 +81,7 @@ Designing a food ordering app using Figma allows the team to create user-friendl
     link: "https://www.figma.com/proto/GCkUVVkyGJbLA6y0RGekCY/Web-Primus-Test?node-id=0-1&node-type=canvas&t=3qRC90leUBoqD0uO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     code_name: "FIGMA",
     iconBg: "#383E56",
-    icon: "/src/assets/exp/image (4).png",
+    icon: exp3,
     date: "March  2024 - April  2024",
     points: [
       `
@@ -80,7 +93,7 @@ Creating a corporate website using Figma involves several key steps. First, defi
     link: "https://github.com/ChattakhupK/chatRoom-app.git",
     code_name: "HTML | CSS | Handlebars | JAVASCRIPT | Mysql",
     iconBg: "#383E56",
-    icon: "/src/assets/exp/image (3).png",
+    icon: exp4,
     date: "August  2024 - September  2024",
     points: [
       "Creating a discussion board can be accomplished using HTML, CSS, Handlebars, and MySQL. The process begins with designing the webpage structure using HTML to include a form for posting new threads and a section for displaying existing threads. CSS is then applied to enhance the visual appeal and user experience of the site. Handlebars serves as a templating engine, allowing dynamic rendering of threads pulled from a MySQL database, which stores information such as titles and content. JavaScript is used to facilitate communication between the form and the MySQL database, enabling users to create and read threads seamlessly on the website.",
@@ -91,7 +104,7 @@ Creating a corporate website using Figma involves several key steps. First, defi
     link: "https://mylistadd-firebase-c7ezmd4vl-chattakhupks-projects.vercel.app/",
     code_name: "React | Tailwind | Firebase | Node",
     iconBg: "#383E56",
-    icon: "/src/assets/exp/image (2).png",
+    icon: exp5,
     date: "September 2024 - October 2024",
     points: [
       "Creating a CRUD (Create, Read, Update, Delete) website using React, Tailwind CSS, and Firebase is an effective way to develop applications that manage data comprehensively. React allows for the creation of highly interactive user interfaces, while Tailwind CSS enables rapid and visually appealing design.",
@@ -103,7 +116,7 @@ Creating a corporate website using Figma involves several key steps. First, defi
     link: "https://realtime-chat-app-98d9c.web.app/",
     code_name: "React | Tailwind | Firebase | Node",
     iconBg: "#383E56",
-    icon: "/src/assets/exp/image (10).png",
+    icon: exp6,
     date: "September 2024 - October 2024",
     points: [
       "Creating a chat website using React, Tailwind CSS, and Firebase offers a modern and efficient way to build real-time communication platforms. React provides a responsive and interactive user interface, while Tailwind CSS allows for rapid and customizable styling. Firebase handles the backend,",
@@ -115,7 +128,7 @@ Creating a corporate website using Figma involves several key steps. First, defi
     link: "/",
     code_name: "React | Tailwind | Node | Express | Mysql | Stripe",
     iconBg: "#383E56",
-    icon: "/src/assets/exp/image (9).png",
+    icon: exp7,
     date: "October 2024 - Current",
     points: [
       "Creating an e-commerce website to sell computer equipment using modern technologies like React, Node.js, Express, and MySQL begins with planning your objectives and desired features, such as product search and a shopping cart system. Next, design the UI/UX with wireframes or mockups to ensure ease of use.",
