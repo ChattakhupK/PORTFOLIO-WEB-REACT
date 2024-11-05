@@ -5,11 +5,11 @@ import { servicesTH } from "../data/exampleDataTH";
 const CardAboutEN = ({ item }) => {
   return (
     <div>
-      <div className="xs:w-[320px] h-[500px] flex justify-between flex-col w-96 my-6 bg-white shadow-sm border border-slate-200 rounded-lg">
-        <div className="h-56  overflow-hidden text-white rounded-md">
+      <div className="xs:w-[320px] h-[500px] flex justify-between flex-col w-96 my-6 bg-white shadow-sm border border-slate-200 rounded-md">
+        <div className="h-60  p-1 py-auto bg-black  text-white rounded-t-md">
           <img
-            className="rounded-t-lg"
-            style={{ width: "100%", height: "250px" }}
+            className="rounded-t-md"
+            style={{ width: "100%", height: "230px" }}
             src={item.image}
           />
         </div>
@@ -39,11 +39,11 @@ const CardAboutEN = ({ item }) => {
 const CardAboutTH = ({ item }) => {
   return (
     <div>
-      <div className="xs:w-[320px] h-[500px] flex justify-between flex-col w-96 my-6 bg-white shadow-sm border border-slate-200 rounded-lg">
-        <div className="h-56  overflow-hidden text-white rounded-md">
+      <div className="xs:w-[320px] h-[500px] flex justify-between flex-col w-96 my-6 bg-white shadow-sm border border-slate-200 rounded-md">
+        <div className="h-60  p-1 py-auto bg-black  text-white rounded-t-md">
           <img
-            className="rounded-t-lg"
-            style={{ width: "100%", height: "250px" }}
+            className="rounded-t-md"
+            style={{ width: "100%", height: "230px" }}
             src={item.image}
           />
         </div>
@@ -72,7 +72,10 @@ const CardAboutTH = ({ item }) => {
 
 const About = ({ t, islan }) => {
   return (
-    <div id={t("nav1")} className="about-head max-w-calc-customSM md:max-w-calc-customMD lg:xl:max-w-calc-customLG xl:max-w-calc-customXL">
+    <div
+      id={t("nav1")}
+      className="about-head max-w-calc-customSM md:max-w-calc-customMD lg:xl:max-w-calc-customLG xl:max-w-calc-customXL"
+    >
       <div className="sectionSubText">{t("intro")}</div>
       <h2 className="sectionHeadText">{t("introHead")}</h2>
       <div className="about-text">
