@@ -107,8 +107,7 @@ Creating a corporate website using Figma involves several key steps. First, defi
     icon: exp5,
     date: "September 2024 - October 2024",
     points: [
-      "Creating a CRUD (Create, Read, Update, Delete) website using React, Tailwind CSS, and Firebase is an effective way to develop applications that manage data comprehensively. React allows for the creation of highly interactive user interfaces, while Tailwind CSS enables rapid and visually appealing design.",
-      "Firebase serves as a real-time database and user management service, facilitating the seamless addition, modification, reading, and deletion of data. By combining these technologies, developers can streamline the process of building a robust CRUD application efficiently.",
+      "Creating a CRUD (Create, Read, Update, Delete) website using React, Tailwind CSS, and Firebase is an effective way to develop applications that manage data comprehensively. React allows for the creation of highly interactive user interfaces, while Tailwind CSS enables rapid and visually appealing design. Firebase serves as a real-time database and user management service, facilitating the seamless addition, modification, reading, and deletion of data. By combining these technologies, developers can streamline the process of building a robust CRUD application efficiently.",
     ],
   },
   {
@@ -119,8 +118,7 @@ Creating a corporate website using Figma involves several key steps. First, defi
     icon: exp6,
     date: "September 2024 - October 2024",
     points: [
-      "Creating a chat website using React, Tailwind CSS, and Firebase offers a modern and efficient way to build real-time communication platforms. React provides a responsive and interactive user interface, while Tailwind CSS allows for rapid and customizable styling. Firebase handles the backend,",
-      "offering real-time database capabilities and user authentication, which makes it easy to manage chat messages and user sessions. By integrating these technologies, developers can create a seamless and engaging chat experience for users.",
+      "Creating a chat website using React, Tailwind CSS, and Firebase offers a modern and efficient way to build real-time communication platforms. React provides a responsive and interactive user interface, while Tailwind CSS allows for rapid and customizable styling. Firebase handles the backend, offering real-time database capabilities and user authentication, which makes it easy to manage chat messages and user sessions. By integrating these technologies, developers can create a seamless and engaging chat experience for users.",
     ],
   },
   {
@@ -131,8 +129,7 @@ Creating a corporate website using Figma involves several key steps. First, defi
     icon: exp7,
     date: "October 2024 - Current",
     points: [
-      "Creating an e-commerce website to sell computer equipment using modern technologies like React, Node.js, Express, and MySQL begins with planning your objectives and desired features, such as product search and a shopping cart system. Next, design the UI/UX with wireframes or mockups to ensure ease of use.",
-      "Then, develop the backend using Node.js and Express to create an API for managing product data. For the frontend, use React to build a responsive user interface, and manage your product database with MySQL. Once development is complete, test the website's functionality and make necessary improvements.",
+      "Creating an e-commerce website to sell computer equipment using modern technologies like React, Node.js, Express, and MySQL begins with planning your objectives and desired features, such as product search and a shopping cart system. Next, design the UI/UX with wireframes or mockups to ensure ease of use. Then, develop the backend using Node.js and Express to create an API for managing product data. For the frontend, use React to build a responsive user interface, and manage your product database with MySQL. Once development is complete, test the website's functionality and make necessary improvements.",
     ],
   },
 ];

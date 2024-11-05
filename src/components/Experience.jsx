@@ -6,6 +6,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesEN } from "../data/exampleDataEN";
 import { experiencesTH } from "../data/exampleDataTH";
+import ShowMoreText from "react-show-more-text";
 
 import myLogo from "../assets/reac.png";
 import myLogoReact from "../assets/React.png";
@@ -39,17 +40,30 @@ const ExCardEN = ({ item }) => {
       </span>
       <ul>
         {item.points.map((item, index) => (
-          <li key={index}>{item}</li>
+          <li key={index}>
+            <ShowMoreText
+              more={
+                <span className="text-black cursor-pointer">Show more</span>
+              }
+              less={
+                <span className="text-black cursor-pointer">Show less</span>
+              }
+            >
+              {item}
+            </ShowMoreText>
+          </li>
         ))}
       </ul>
-      <a className="cursor-pointer flex" target="_blank" href={item.link}>
-        <button
-          className="mt-2 rounded-md bg-gray-700 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow-lg focus:shadow-none hover:bg-slate-200 hover:text-black active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-          type="button"
-        >
-          more
-        </button>
-      </a>
+      <div className="flex">
+        <a className="cursor-pointer" target="_blank" href={item.link}>
+          <button
+            className="mt-2 rounded-md bg-gray-700 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow-lg focus:shadow-none hover:bg-slate-200 hover:text-black active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+          >
+            more
+          </button>
+        </a>
+      </div>
     </VerticalTimelineElement>
   );
 };
@@ -78,17 +92,31 @@ const ExCardTH = ({ item }) => {
       </span>
       <ul>
         {item.points.map((item, index) => (
-          <li key={index}>{item}</li>
+          <li key={index}>
+            {" "}
+            <ShowMoreText
+              more={
+                <span className="text-black cursor-pointer">อ่านเพิ่มเติม</span>
+              }
+              less={
+                <span className="text-black cursor-pointer">ย่อขนาด</span>
+              }
+            >
+              {item}
+            </ShowMoreText>
+          </li>
         ))}
       </ul>
-      <a className="cursor-pointer flex" target="_blank" href={item.link}>
-        <button
-          className="mt-2 rounded-md bg-gray-700 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow-lg focus:shadow-none hover:bg-slate-200 hover:text-black active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-          type="button"
-        >
-          เพิ่มเติม
-        </button>
-      </a>
+      <div className="flex">
+        <a className="cursor-pointer" target="_blank" href={item.link}>
+          <button
+            className="mt-2 rounded-md bg-gray-700 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow-lg focus:shadow-none hover:bg-slate-200 hover:text-black active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+            type="button"
+          >
+            เพิ่มเติม
+          </button>
+        </a>
+      </div>
     </VerticalTimelineElement>
   );
 };

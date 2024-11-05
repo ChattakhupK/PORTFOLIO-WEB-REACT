@@ -80,7 +80,7 @@ export default function Navbars({ changeLanguage, t }) {
               {options.map((item, index) => {
                 return (
                   <option key={index} value={item.value}>
-                    {item.label[0] === item.label[1] ? item.label : item.label}
+                    {item.label[0] === item.label[1] ?item.label :item.label}
                   </option>
                 );
               })}
@@ -127,7 +127,7 @@ export default function Navbars({ changeLanguage, t }) {
               {options.map((item, index) => {
                 return (
                   <option key={index} value={item.value}>
-                    {item.label[0] === item.label[1] ? item.label : item.label}
+                    {item.label[0] === item.label[1] ?item.label :item.label}
                   </option>
                 );
               })}
