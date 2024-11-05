@@ -72,7 +72,7 @@ export default function Navbars({ changeLanguage, t }) {
           </div>
           <div className="hidden sm:ml-6 sm:block absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
             <select
-              onClick={(e) => {
+              onChange={(e) => {
                 changeLanguage(e.target.value);
               }}
               className="appearance row-start-1 col-start-1 bg-slate-50 dark:bg-slate-800"
@@ -119,7 +119,7 @@ export default function Navbars({ changeLanguage, t }) {
         </div>
         <div>
           <select
-            onClick={(e) => {
+            onChange={(e) => {
               changeLanguage(e.target.value);
             }}
             className="w-full text-center py-2 appearance row-start-1 col-start-1 bg-slate-100 dark:bg-slate-700"
