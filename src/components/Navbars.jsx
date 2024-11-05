@@ -80,7 +80,7 @@ export default function Navbars({ changeLanguage, t }) {
               {options.map((item, index) => {
                 return (
                   <option key={index} value={item.value}>
-                    {item.label[0] === item.label[1] ?item.label :item.label}
+                    {item.label[0] === item.label[1] ? item.label : item.label}
                   </option>
                 );
               })}
@@ -124,8 +124,13 @@ export default function Navbars({ changeLanguage, t }) {
             }}
             className="w-full text-center py-2 appearance row-start-1 col-start-1 bg-slate-100 dark:bg-slate-700"
           >
-            <option value="en">English</option>
-            <option value="th">Thai</option>
+              {options.map((item, index) => {
+                return (
+                  <option key={index} value={item.value}>
+                    {item.label[0] === item.label[1] ? item.label : item.label}
+                  </option>
+                );
+              })}
           </select>
         </div>
       </DisclosurePanel>
