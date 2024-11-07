@@ -123,7 +123,7 @@ Creating a corporate website using Figma involves several key steps. First, defi
   },
   {
     title: "E-commerce",
-    link: "/",
+    link: "https://github.com/ChattakhupK/ECOM-STORE-REACT-MYSQL",
     code_name: "React | Tailwind | Node | Express | Mysql | Stripe",
     iconBg: "#383E56",
     icon: exp7,
