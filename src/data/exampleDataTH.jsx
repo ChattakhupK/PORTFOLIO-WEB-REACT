@@ -123,7 +123,7 @@ export const experiencesTH = [
   },
   {
     title: "E-commerce",
-    link: "https://github.com/ChattakhupK/ECOM-STORE-REACT-MYSQL",
+    link: "https://ecom-client-web-vercel.vercel.app/",
     code_name: "React | Tailwind | Node | Express | Mysql | Stripe",
     iconBg: "#383E56",
     icon: exp7,
