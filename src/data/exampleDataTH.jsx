@@ -18,13 +18,13 @@ import info2 from "../assets/infopic/2222.png";
 // import info3 from '../assets/infopic/3333.png'
 import info4 from "../assets/infopic/4444.png";
 
-import exp1 from '../assets/exp/image (6).png'
-import exp2 from '../assets/exp/image (5).png'
-import exp3 from '../assets/exp/image (4).png'
-import exp4 from '../assets/exp/image (3).png'
-import exp5 from '../assets/exp/image (2).png'
-import exp6 from '../assets/exp/image (10).png'
-import exp7 from '../assets/exp/image (9).png'
+import exp1 from "../assets/exp/image (6).png";
+import exp2 from "../assets/exp/image (5).png";
+import exp3 from "../assets/exp/image (4).png";
+import exp4 from "../assets/exp/image (3).png";
+import exp5 from "../assets/exp/image (2).png";
+import exp6 from "../assets/exp/image (10).png";
+import exp7 from "../assets/exp/image (9).png";
 
 export const servicesTH = [
   {
@@ -45,23 +45,28 @@ export const servicesTH = [
   //   link: "https://www.tiktok.com/@bugsbunnychinese",
   //   p: "ยินดีต้อนรับสู่ช่อง TikTok ของผม! นี่คือที่ที่ผมแบ่งปันความคิดสร้างสรรค์และความสนุกสนานทุกวันผ่านคลิปสั้นๆ ที่เต็มไปด้วยแรงบันดาลใจ",
   // },
-  {
-    title: "PORTFOLIO",
-    image: info4,
-    link: "https://files.fm/f/dxdz5zaggq",
-    p: "ผมหวังว่าผลงานนี้จะทำให้คุณทราบถึงทักษะและความสามารถของผม หากคุณสนใจที่จะร่วมงานกับผมหรือมีคำถามเพิ่มเติม สามารถติดต่อผมได้เลย",
-  },
 ];
 export const experiencesTH = [
   {
-    title: "Web-HTML-BMI",
-    link: "https://chattakhupk.github.io/BMI.github.io/",
-    code_name: "HTML | CSS | JAVASCRIPT",
+    title: "E-commerce",
+    link: "https://ecom-client-web-vercel.vercel.app/",
+    code_name: "React | Tailwind | Node | Express | Mysql | Stripe",
     iconBg: "#383E56",
-    icon: exp1,
-    date: "ธันวาคม  2023 - มกราคม  2024",
+    icon: exp7,
+    date: "ตุลาคม  2024 - ปัจจุบัน",
     points: [
-      "เว็บไซต์เครื่องคำนวณดัชนีมวลกาย (BMI) ใช้งานง่ายโดยใช้ HTML, CSS และ JavaScript ขั้นแรก คุณต้องตั้งค่าโครงสร้าง HTML ที่ให้ผู้ใช้ป้อนน้ำหนักและส่วนสูง จากนั้น คุณใช้ CSS เพื่อจัดรูปแบบหน้าเว็บให้ดูสะอาดตาและใช้งานง่าย สุดท้าย คุณเขียน JavaScript เพื่อคำนวณดัชนีมวลกาย (BMI) ตามอินพุตและแสดงผลลัพธ์ รวมถึงตรวจสอบอินพุตที่ถูกต้องเพื่อให้แน่ใจว่าได้ผลลัพธ์ที่ถูกต้อง",
+      "การสร้างเว็บไซต์อีคอมเมิร์ซเพื่อขายอุปกรณ์คอมพิวเตอร์โดยใช้เทคโนโลยีสมัยใหม่ เช่น React, Node.js, Express และ MySQL เริ่มต้นด้วยการวางแผนวัตถุประสงค์และฟีเจอร์ที่ต้องการ เช่น การค้นหาผลิตภัณฑ์และระบบตะกร้าสินค้า จากนั้นออกแบบ UI/UX ด้วยไวร์เฟรมหรือโมเดลจำลองเพื่อให้มั่นใจว่าใช้งานง่าย จากนั้นพัฒนาแบ็คเอนด์โดยใช้ Node.js และ Express เพื่อสร้าง API สำหรับจัดการข้อมูลผลิตภัณฑ์ สำหรับฟรอนต์เอนด์ ให้ใช้ React เพื่อสร้างอินเทอร์เฟซผู้ใช้ที่ตอบสนองได้ และจัดการฐานข้อมูลผลิตภัณฑ์ของคุณด้วย MySQL เมื่อการพัฒนาเสร็จสิ้น ให้ทดสอบฟังก์ชันการทำงานของเว็บไซต์และทำการปรับปรุงที่จำเป็น",
+    ],
+  },
+  {
+    title: "CRUD-User-Realtime",
+    link: "https://mylistadd-firebase.vercel.app/",
+    code_name: "React | Tailwind | Firebase | Node",
+    iconBg: "#383E56",
+    icon: exp5,
+    date: "กันยายน  2024 - ตุลาคม  2024",
+    points: [
+      "การสร้างเว็บไซต์ CRUD (Create, Read, Update, Delete) โดยใช้ React, Tailwind CSS และ Firebase ถือเป็นวิธีที่มีประสิทธิภาพในการพัฒนาแอปพลิเคชันที่จัดการข้อมูลอย่างครอบคลุม React ช่วยให้สร้างอินเทอร์เฟซผู้ใช้แบบโต้ตอบได้สูง ในขณะที่ Tailwind CSS ช่วยให้ออกแบบได้อย่างรวดเร็วและสวยงาม Firebase ทำหน้าที่เป็นฐานข้อมูลแบบเรียลไทม์และบริการจัดการผู้ใช้ ช่วยให้สามารถเพิ่ม แก้ไข อ่าน และลบข้อมูลได้อย่างราบรื่น ด้วยการรวมเทคโนโลยีเหล่านี้เข้าด้วยกัน นักพัฒนาสามารถปรับกระบวนการสร้างแอปพลิเคชัน CRUD ที่แข็งแกร่งได้อย่างมีประสิทธิภาพ",
     ],
   },
   {
@@ -74,6 +79,17 @@ export const experiencesTH = [
     points: [
       `
 การออกแบบแอปสั่งอาหารโดยใช้ Figma ช่วยให้ทีมงานสามารถสร้างโครงร่างและภาพที่เป็นมิตรต่อผู้ใช้ ในขณะเดียวกันก็ทดสอบประสบการณ์ของผู้ใช้ก่อนการพัฒนาแอปจริงได้อย่างมีประสิทธิภาพ`,
+    ],
+  },
+  {
+    title: "Web-HTML-BMI",
+    link: "https://chattakhupk.github.io/BMI-HTML-BASIC/",
+    code_name: "HTML | CSS | JAVASCRIPT",
+    iconBg: "#383E56",
+    icon: exp1,
+    date: "ธันวาคม  2023 - มกราคม  2024",
+    points: [
+      "เว็บไซต์เครื่องคำนวณดัชนีมวลกาย (BMI) ใช้งานง่ายโดยใช้ HTML, CSS และ JavaScript ขั้นแรก คุณต้องตั้งค่าโครงสร้าง HTML ที่ให้ผู้ใช้ป้อนน้ำหนักและส่วนสูง จากนั้น คุณใช้ CSS เพื่อจัดรูปแบบหน้าเว็บให้ดูสะอาดตาและใช้งานง่าย สุดท้าย คุณเขียน JavaScript เพื่อคำนวณดัชนีมวลกาย (BMI) ตามอินพุตและแสดงผลลัพธ์ รวมถึงตรวจสอบอินพุตที่ถูกต้องเพื่อให้แน่ใจว่าได้ผลลัพธ์ที่ถูกต้อง",
     ],
   },
   {
@@ -100,17 +116,6 @@ export const experiencesTH = [
     ],
   },
   {
-    title: "CRUD-User-Realtime",
-    link: "https://mylistadd-firebase.vercel.app/",
-    code_name: "React | Tailwind | Firebase | Node",
-    iconBg: "#383E56",
-    icon: exp5,
-    date: "กันยายน  2024 - ตุลาคม  2024",
-    points: [
-      "การสร้างเว็บไซต์ CRUD (Create, Read, Update, Delete) โดยใช้ React, Tailwind CSS และ Firebase ถือเป็นวิธีที่มีประสิทธิภาพในการพัฒนาแอปพลิเคชันที่จัดการข้อมูลอย่างครอบคลุม React ช่วยให้สร้างอินเทอร์เฟซผู้ใช้แบบโต้ตอบได้สูง ในขณะที่ Tailwind CSS ช่วยให้ออกแบบได้อย่างรวดเร็วและสวยงาม Firebase ทำหน้าที่เป็นฐานข้อมูลแบบเรียลไทม์และบริการจัดการผู้ใช้ ช่วยให้สามารถเพิ่ม แก้ไข อ่าน และลบข้อมูลได้อย่างราบรื่น ด้วยการรวมเทคโนโลยีเหล่านี้เข้าด้วยกัน นักพัฒนาสามารถปรับกระบวนการสร้างแอปพลิเคชัน CRUD ที่แข็งแกร่งได้อย่างมีประสิทธิภาพ",
-    ],
-  },
-  {
     title: "Chat-Auth-Realtime",
     link: "https://realtime-chat-app-98d9c.web.app/",
     code_name: "React | Tailwind | Firebase | Node",
@@ -119,17 +124,6 @@ export const experiencesTH = [
     date: "กันยายน  2024 - ตุลาคม  2024",
     points: [
       "การสร้างเว็บไซต์แชทโดยใช้ React, Tailwind CSS และ Firebase เป็นวิธีที่ทันสมัยและมีประสิทธิภาพในการสร้างแพลตฟอร์มการสื่อสารแบบเรียลไทม์ React มอบอินเทอร์เฟซผู้ใช้แบบตอบสนองและโต้ตอบได้ ในขณะที่ Tailwind CSS ช่วยให้จัดรูปแบบได้อย่างรวดเร็วและปรับแต่งได้ Firebase จัดการส่วนแบ็คเอนด์ โดยนำเสนอความสามารถฐานข้อมูลแบบเรียลไทม์และการตรวจสอบผู้ใช้ ซึ่งทำให้การจัดการข้อความแชทและเซสชันของผู้ใช้เป็นเรื่องง่าย ด้วยการผสานรวมเทคโนโลยีเหล่านี้ นักพัฒนาสามารถสร้างประสบการณ์การแชทที่ราบรื่นและน่าดึงดูดสำหรับผู้ใช้",
-    ],
-  },
-  {
-    title: "E-commerce",
-    link: "https://ecom-client-web-vercel.vercel.app/",
-    code_name: "React | Tailwind | Node | Express | Mysql | Stripe",
-    iconBg: "#383E56",
-    icon: exp7,
-    date: "ตุลาคม  2024 - ปัจจุบัน",
-    points: [
-      "การสร้างเว็บไซต์อีคอมเมิร์ซเพื่อขายอุปกรณ์คอมพิวเตอร์โดยใช้เทคโนโลยีสมัยใหม่ เช่น React, Node.js, Express และ MySQL เริ่มต้นด้วยการวางแผนวัตถุประสงค์และฟีเจอร์ที่ต้องการ เช่น การค้นหาผลิตภัณฑ์และระบบตะกร้าสินค้า จากนั้นออกแบบ UI/UX ด้วยไวร์เฟรมหรือโมเดลจำลองเพื่อให้มั่นใจว่าใช้งานง่าย จากนั้นพัฒนาแบ็คเอนด์โดยใช้ Node.js และ Express เพื่อสร้าง API สำหรับจัดการข้อมูลผลิตภัณฑ์ สำหรับฟรอนต์เอนด์ ให้ใช้ React เพื่อสร้างอินเทอร์เฟซผู้ใช้ที่ตอบสนองได้ และจัดการฐานข้อมูลผลิตภัณฑ์ของคุณด้วย MySQL เมื่อการพัฒนาเสร็จสิ้น ให้ทดสอบฟังก์ชันการทำงานของเว็บไซต์และทำการปรับปรุงที่จำเป็น",
     ],
   },
 ];

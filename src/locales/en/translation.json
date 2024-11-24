@@ -6,6 +6,8 @@
     "nav2": "Skill",
     "nav3": "Certificate",
     "nav4": "Experience",
+    "nav5": "Resume",
+    "nav6": "Contact",
 
 
 
@@ -35,7 +37,23 @@
     "showLess": "SHOW LESS",
 
 
+
+    "Portfolio": "Portfolio",
+    "Resume": "Resume",
+    "ResumeP1": "I hope this portfolio gives you an idea of ​​my skills and abilities. If you are interested in working with me or have any further questions, please feel free to contact me.",
+
+
+
+
     "insight":"Insight",
     "experience":"Experience",
-    "expP1":"The knowledge or skills gained through direct involvement in events or activities."
+    "expP1":"The knowledge or skills gained through direct involvement in events or activities.",
+
+
+    "contactH":"Get In Touch",
+    "contactP":"You can contact me by phone number or email if you are interested in me.",
+    "contactb":"Contact Us",
+    "contactc1":"Email Address",
+    "contactc2":"Phone Number",
+    "contactc3":"Line ID"
 }

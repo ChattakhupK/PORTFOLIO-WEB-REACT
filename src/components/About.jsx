@@ -5,7 +5,7 @@ import { servicesTH } from "../data/exampleDataTH";
 const CardAboutEN = ({ item }) => {
   return (
     <div>
-      <div className="xs:w-[320px] h-[500px] flex justify-between flex-col w-96 my-6 bg-white shadow-sm border border-slate-200 rounded-md">
+      <div className="xs:w-[320px] h-[500px] flex justify-between flex-col w-80 my-6 bg-white shadow-sm border border-slate-200 rounded-md">
         <div className="h-60  p-1 py-auto bg-black  text-white rounded-t-md">
           <img
             className="rounded-t-md"

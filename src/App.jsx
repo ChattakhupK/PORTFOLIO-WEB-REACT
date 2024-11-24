@@ -5,9 +5,11 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Certificate from "./components/Certificate";
 import Skill from "./components/Skill";
+import Resume from "./components/Resume";
 import "./components/i18n";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
+import Contact from "./components/Contact";
 
 function App() {
   const { t, i18n } = useTranslation();
@@ -30,8 +32,11 @@ function App() {
         <About t={t} islan={islan} />
         <Skill t={t} />
         <Certificate t={t} />
+        <Resume t={t} />
       </div>
       <Experience t={t} islan={islan} />
+      <hr className="my-6" />
+      <Contact t={t} islan={islan} />
     </div>
   );
 }

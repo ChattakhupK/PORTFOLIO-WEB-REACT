@@ -1,123 +1,100 @@
 import React from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesEN } from "../data/exampleDataEN";
 import { experiencesTH } from "../data/exampleDataTH";
 import ShowMoreText from "react-show-more-text";
 
-import myLogo from "../assets/reac.png";
-import myLogoReact from "../assets/React.png";
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Typography,
+  Button,
+} from "@material-tailwind/react";
+import { div } from "framer-motion/client";
 
-const WorkIcon = () => (
-  <>
-    <img className="vertical-timeline-element-icon bounce-in" src={myLogo} />
-  </>
-);
 const ExCardEN = ({ item }) => {
   return (
-    <VerticalTimelineElement
-      className="vertical-timeline-element--work"
-      contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-      contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-      date={item.date}
-      iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-      icon={<WorkIcon />}
-    >
-      <div className="mb-2 ">
-        <h3 className="vertical-timeline-element-title text-center font-bold">
-          {item.title}
-        </h3>
-      </div>
-      <div className="w-full flex gap-2"></div>
-      <div className="mb-1">
-        <img src={item.icon} />
-      </div>
-      <span className="inline-flex items-center my-2 gap-x-2.5 py-1.5 px-2 rounded-full text-xs font-medium bg-white text-gray-600">
-        <div className="w-full text-center ">{item.code_name}</div>
-      </span>
-      <ul>
-        {item.points.map((item, index) => (
-          <li key={index}>
-            <ShowMoreText
-              more={
-                <span className="text-black cursor-pointer">Show more</span>
-              }
-              less={
-                <span className="text-black cursor-pointer">Show less</span>
-              }
-            >
-              {item}
-            </ShowMoreText>
-          </li>
-        ))}
-      </ul>
-      <div className="flex">
-        <a className="cursor-pointer" target="_blank" href={item.link}>
-          <button
-            className="mt-2 rounded-md bg-gray-700 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow-lg focus:shadow-none hover:bg-slate-200 hover:text-black active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-            type="button"
-          >
-            Watch
-          </button>
-        </a>
-      </div>
-    </VerticalTimelineElement>
+    <div>
+      <Card className="mt-6 mb-6 w-96 min-h-[470px] flex justify-items-start">
+        <CardHeader color="blue-gray" className="relative h-56">
+          <img src={item.icon} />
+        </CardHeader>
+        <CardBody className="text-black">
+          <Typography variant="h5" color="blue-gray" className="mb-2">
+            {item.title}
+          </Typography>
+          <Typography>
+            {item.points.map((item, index) => (
+              <p key={index}>
+                <ShowMoreText
+                  more={
+                    <span className="text-black font-bold cursor-pointer">
+                      show
+                    </span>
+                  }
+                  less={
+                    <span className="text-black font-bold cursor-pointer">
+                      less
+                    </span>
+                  }
+                >
+                  {item}
+                </ShowMoreText>
+              </p>
+            ))}
+          </Typography>
+        </CardBody>
+        <CardFooter className="pt-0">
+          <a className="cursor-pointer" target="_blank" href={item.link}>
+            <Button className="h-10">Read More</Button>
+          </a>
+        </CardFooter>
+      </Card>
+    </div>
   );
 };
 
 const ExCardTH = ({ item }) => {
   return (
-    <VerticalTimelineElement
-      className="vertical-timeline-element--work"
-      contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-      contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-      date={item.date}
-      iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-      icon={<WorkIcon />}
-    >
-      <div className="mb-2 ">
-        <h3 className="vertical-timeline-element-title text-center font-bold">
-          {item.title}
-        </h3>
-      </div>
-      <div className="w-full flex gap-2"></div>
-      <div className="mb-1">
-        <img src={item.icon} />
-      </div>
-      <span className="inline-flex items-center my-2 gap-x-2.5 py-1.5 px-2 rounded-full text-xs font-medium bg-white text-gray-600">
-        <div className="w-full text-center ">{item.code_name}</div>
-      </span>
-      <ul>
-        {item.points.map((item, index) => (
-          <li key={index}>
-            {" "}
-            <ShowMoreText
-              more={
-                <span className="text-black cursor-pointer">อ่านเพิ่มเติม</span>
-              }
-              less={
-                <span className="text-black cursor-pointer">ย่อขนาด</span>
-              }
-            >
-              {item}
-            </ShowMoreText>
-          </li>
-        ))}
-      </ul>
-      <div className="flex">
-        <a className="cursor-pointer" target="_blank" href={item.link}>
-          <button
-            className="mt-2 rounded-md bg-gray-700 py-2 px-4 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow-lg focus:shadow-none hover:bg-slate-200 hover:text-black active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-            type="button"
-          >
-            ดูเพิ่มเติม
-          </button>
-        </a>
-      </div>
-    </VerticalTimelineElement>
+    <div>
+      <Card className="mt-6 mb-6 w-96 min-h-[470px] flex justify-items-start">
+        <CardHeader color="blue-gray" className="relative h-56">
+          <img src={item.icon} />
+        </CardHeader>
+        <CardBody className="text-black">
+          <Typography variant="h5" color="blue-gray" className="mb-2">
+            {item.title}
+          </Typography>
+          <Typography>
+            {item.points.map((item, index) => (
+              <p key={index}>
+                <ShowMoreText
+                  more={
+                    <span className="text-black font-bold cursor-pointer">
+                      show
+                    </span>
+                  }
+                  less={
+                    <span className="text-black font-bold cursor-pointer">
+                      less
+                    </span>
+                  }
+                >
+                  {item}
+                </ShowMoreText>
+              </p>
+            ))}
+          </Typography>
+        </CardBody>
+        <CardFooter className="pt-0">
+          <a className="cursor-pointer" target="_blank" href={item.link}>
+            <Button className="h-10">Read More</Button>
+          </a>
+        </CardFooter>
+      </Card>
+    </div>
   );
 };
 
@@ -128,7 +105,7 @@ const Experience = ({ t, islan }) => {
         <div className="sectionSubText">{t("insight")}</div>
         <h2 className="sectionHeadText">{t("experience")}</h2>
         <div className="about-text">{t("expP1")}</div>
-        <VerticalTimeline>
+        <div className="flex gap-6 w-full flex-wrap justify-center rounded-xl">
           {islan === "en"
             ? experiencesEN.map((item, index) => {
                 return <ExCardEN key={index} item={item} islan={islan} />;
@@ -136,12 +113,7 @@ const Experience = ({ t, islan }) => {
             : experiencesTH.map((item, index) => {
                 return <ExCardTH key={index} item={item} islan={islan} />;
               })}
-          <VerticalTimelineElement
-            date={islan === "en" ? "Now" : "ตอนนี้"}
-            iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-            icon={<WorkIcon />}
-          />
-        </VerticalTimeline>
+        </div>
       </div>
     </div>
   );

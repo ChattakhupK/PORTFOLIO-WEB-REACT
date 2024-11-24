@@ -13,18 +13,21 @@ import imgCer12 from "../assets/certificate/12.png";
 import imgCer13 from "../assets/certificate/13.png";
 import imgCer14 from "../assets/certificate/14.jpg";
 
-import info1 from '../assets/infopic/1111.png'
-import info2 from '../assets/infopic/2222.png'
+import info1 from "../assets/infopic/1111.png";
+import info2 from "../assets/infopic/2222.png";
 // import info3 from '../assets/infopic/3333.png'
-import info4 from '../assets/infopic/4444.png'
+import info4 from "../assets/infopic/4444.png";
 
-import exp1 from '../assets/exp/image (6).png'
-import exp2 from '../assets/exp/image (5).png'
-import exp3 from '../assets/exp/image (4).png'
-import exp4 from '../assets/exp/image (3).png'
-import exp5 from '../assets/exp/image (2).png'
-import exp6 from '../assets/exp/image (10).png'
-import exp7 from '../assets/exp/image (9).png'
+import exp1 from "../assets/exp/image (6).png";
+import exp2 from "../assets/exp/image (5).png";
+import exp3 from "../assets/exp/image (4).png";
+import exp4 from "../assets/exp/image (3).png";
+import exp5 from "../assets/exp/image (2).png";
+import exp6 from "../assets/exp/image (10).png";
+import exp7 from "../assets/exp/image (9).png";
+
+import resumeTH from "../assets/resume/Resume_thai_ver.png";
+import resumeEN from "../assets/resume/Resume_eng_ver.png";
 
 export const servicesEN = [
   {
@@ -45,23 +48,28 @@ export const servicesEN = [
   //   link: "https://www.tiktok.com/@bugsbunnychinese",
   //   p: "Welcome to my TikTok channel! This is where I share creativity and fun every day through short clips packed with inspiration.",
   // },
-  {
-    title: "PORTFOLIO",
-    image: info4,
-    link: "https://files.fm/f/dxdz5zaggq",
-    p: "I hope this portfolio gives you an idea of ​​my skills and abilities. If you are interested in working with me or have any further questions, please feel free to contact me.",
-  },
 ];
 export const experiencesEN = [
   {
-    title: "Web-HTML-BMI",
-    link: "https://chattakhupk.github.io/BMI.github.io/",
-    code_name: "HTML | CSS | JAVASCRIPT",
+    title: "E-commerce",
+    link: "https://ecom-client-web-vercel.vercel.app/",
+    code_name: "React | Tailwind | Node | Express | Mysql | Stripe",
     iconBg: "#383E56",
-    icon: exp1,
-    date: "December  2023 - January  2024",
+    icon: exp7,
+    date: "October 2024 - Current",
     points: [
-      "BMI calculator website is straightforward using HTML, CSS, and JavaScript. First, you set up an HTML structure that allows users to input their weight and height. Next, you use CSS to style the page for a clean and user-friendly appearance. Finally, you write JavaScript to calculate the BMI based on the inputs and display the result, including checks for valid input to ensure accurate results.",
+      "Creating an e-commerce website to sell computer equipment using modern technologies like React, Node.js, Express, and MySQL begins with planning your objectives and desired features, such as product search and a shopping cart system. Next, design the UI/UX with wireframes or mockups to ensure ease of use. Then, develop the backend using Node.js and Express to create an API for managing product data. For the frontend, use React to build a responsive user interface, and manage your product database with MySQL. Once development is complete, test the website's functionality and make necessary improvements.",
+    ],
+  },
+  {
+    title: "CRUD-User-Realtime",
+    link: "https://mylistadd-firebase.vercel.app/",
+    code_name: "React | Tailwind | Firebase | Node",
+    iconBg: "#383E56",
+    icon: exp5,
+    date: "September 2024 - October 2024",
+    points: [
+      "Creating a CRUD (Create, Read, Update, Delete) website using React, Tailwind CSS, and Firebase is an effective way to develop applications that manage data comprehensively. React allows for the creation of highly interactive user interfaces, while Tailwind CSS enables rapid and visually appealing design. Firebase serves as a real-time database and user management service, facilitating the seamless addition, modification, reading, and deletion of data. By combining these technologies, developers can streamline the process of building a robust CRUD application efficiently.",
     ],
   },
   {
@@ -74,6 +82,17 @@ export const experiencesEN = [
     points: [
       `
 Designing a food ordering app using Figma allows the team to create user-friendly wireframes and visuals, while effectively testing the user experience before the actual app development.`,
+    ],
+  },
+  {
+    title: "Web-HTML-BMI",
+    link: "https://chattakhupk.github.io/BMI-HTML-BASIC/",
+    code_name: "HTML | CSS | JAVASCRIPT",
+    iconBg: "#383E56",
+    icon: exp1,
+    date: "December  2023 - January  2024",
+    points: [
+      "BMI calculator website is straightforward using HTML, CSS, and JavaScript. First, you set up an HTML structure that allows users to input their weight and height. Next, you use CSS to style the page for a clean and user-friendly appearance. Finally, you write JavaScript to calculate the BMI based on the inputs and display the result, including checks for valid input to ensure accurate results.",
     ],
   },
   {
@@ -100,17 +119,6 @@ Creating a corporate website using Figma involves several key steps. First, defi
     ],
   },
   {
-    title: "CRUD-User-Realtime",
-    link: "https://mylistadd-firebase.vercel.app/",
-    code_name: "React | Tailwind | Firebase | Node",
-    iconBg: "#383E56",
-    icon: exp5,
-    date: "September 2024 - October 2024",
-    points: [
-      "Creating a CRUD (Create, Read, Update, Delete) website using React, Tailwind CSS, and Firebase is an effective way to develop applications that manage data comprehensively. React allows for the creation of highly interactive user interfaces, while Tailwind CSS enables rapid and visually appealing design. Firebase serves as a real-time database and user management service, facilitating the seamless addition, modification, reading, and deletion of data. By combining these technologies, developers can streamline the process of building a robust CRUD application efficiently.",
-    ],
-  },
-  {
     title: "Chat-Auth-Realtime",
     link: "https://realtime-chat-app-98d9c.web.app/",
     code_name: "React | Tailwind | Firebase | Node",
@@ -119,17 +127,6 @@ Creating a corporate website using Figma involves several key steps. First, defi
     date: "September 2024 - October 2024",
     points: [
       "Creating a chat website using React, Tailwind CSS, and Firebase offers a modern and efficient way to build real-time communication platforms. React provides a responsive and interactive user interface, while Tailwind CSS allows for rapid and customizable styling. Firebase handles the backend, offering real-time database capabilities and user authentication, which makes it easy to manage chat messages and user sessions. By integrating these technologies, developers can create a seamless and engaging chat experience for users.",
-    ],
-  },
-  {
-    title: "E-commerce",
-    link: "https://ecom-client-web-vercel.vercel.app/",
-    code_name: "React | Tailwind | Node | Express | Mysql | Stripe",
-    iconBg: "#383E56",
-    icon: exp7,
-    date: "October 2024 - Current",
-    points: [
-      "Creating an e-commerce website to sell computer equipment using modern technologies like React, Node.js, Express, and MySQL begins with planning your objectives and desired features, such as product search and a shopping cart system. Next, design the UI/UX with wireframes or mockups to ensure ease of use. Then, develop the backend using Node.js and Express to create an API for managing product data. For the frontend, use React to build a responsive user interface, and manage your product database with MySQL. Once development is complete, test the website's functionality and make necessary improvements.",
     ],
   },
 ];
@@ -178,3 +175,13 @@ export const certificateEN = [
     cer: imgCer14,
   },
 ];
+
+export const resumeAll = [
+  {
+    resume: resumeTH,
+  },
+  {
+    resume: resumeEN,
+  },
+];
+

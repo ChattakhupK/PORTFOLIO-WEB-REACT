@@ -17,14 +17,17 @@ import { faPalette } from "@fortawesome/free-solid-svg-icons";
 import tailwind from "../assets/mySkillLogo/Tailwind.png";
 import firebase from "../assets/mySkillLogo/Firebase.png";
 import mySql from "../assets/mySkillLogo/Mysql.png";
-const Skill = ({t}) => {
+import nextjs from "../assets/mySkillLogo/Nextjs.png";
+import typeScript from "../assets/mySkillLogo/Typescript.svg";
+const Skill = ({ t }) => {
   return (
-    <div id={t('nav2')} className="about-head max-w-calc-customSM md:max-w-calc-customMD lg:xl:max-w-calc-customLG xl:max-w-calc-customXL">
+    <div
+      id={t("nav2")}
+      className="about-head max-w-calc-customSM md:max-w-calc-customMD lg:xl:max-w-calc-customLG xl:max-w-calc-customXL"
+    >
       <div className="sectionSubText">{t("skill")}</div>
       <h2 className="sectionHeadText">{t("ability")}</h2>
-      <div className="about-text">
-      {t("skillP1")}
-      </div>
+      <div className="about-text">{t("skillP1")}</div>
       <div className="mt-10 flex flex-wrap justify-center items-center gap-4">
         <div className="flex gap-7 p-6 justify-center items-center  flex-wrap ">
           <div className="text-center">
@@ -40,8 +43,16 @@ const Skill = ({t}) => {
             <p className="mt-2 font-bold">JAVASCRIPT</p>
           </div>
           <div className="text-center">
+          <img className="w-[80px] h-[80px] mx-auto" src={typeScript} />
+            <p className="mt-2 font-bold">TYPESCRIPT</p>
+          </div>
+          <div className="text-center">
             <FontAwesomeIcon size="5x" icon={faReact} />
-            <p className="mt-2 font-bold">REACT</p>
+            <p className="mt-2 font-bold">REACT.JS</p>
+          </div>
+          <div className="text-center">
+            <img className="w-[80px] h-[80px]" src={nextjs} />
+            <p className="mt-2 font-bold">NEXT.JS</p>
           </div>
           <div className="text-center">
             <FontAwesomeIcon size="5x" icon={faNodeJs} />
@@ -60,11 +71,11 @@ const Skill = ({t}) => {
             <p className="mt-2 font-bold">FIGMA</p>
           </div>
           <div className="text-center">
-          <img className="w-[80px] h-[80px]" src={firebase} />
+            <img className="w-[80px] h-[80px]" src={firebase} />
             <p className="mt-2 font-bold">FIREBASE</p>
           </div>
           <div className="text-center">
-          <img className="w-[80px] h-[80px]" src={mySql} />
+            <img className="w-[80px] h-[80px]" src={mySql} />
             <p className="mt-2 font-bold">MYSQL</p>
           </div>
           <div className="text-center">

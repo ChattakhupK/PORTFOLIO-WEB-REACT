@@ -80,6 +80,7 @@ const Certificate = ({ t }) => {
           </button>
         </Link>
       </div>
+      <hr className="my-6" />
     </div>
   );
 };
