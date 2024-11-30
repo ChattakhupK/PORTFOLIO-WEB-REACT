@@ -25,6 +25,7 @@ import exp4 from "../assets/exp/image (3).png";
 import exp5 from "../assets/exp/image (2).png";
 import exp6 from "../assets/exp/image (10).png";
 import exp7 from "../assets/exp/image (9).png";
+import exp8 from "../assets/exp/image (11).png";
 
 export const servicesTH = [
   {
@@ -56,6 +57,17 @@ export const experiencesTH = [
     date: "ตุลาคม  2024 - ปัจจุบัน",
     points: [
       "การสร้างเว็บไซต์อีคอมเมิร์ซเพื่อขายอุปกรณ์คอมพิวเตอร์โดยใช้เทคโนโลยีสมัยใหม่ เช่น React, Node.js, Express และ MySQL เริ่มต้นด้วยการวางแผนวัตถุประสงค์และฟีเจอร์ที่ต้องการ เช่น การค้นหาผลิตภัณฑ์และระบบตะกร้าสินค้า จากนั้นออกแบบ UI/UX ด้วยไวร์เฟรมหรือโมเดลจำลองเพื่อให้มั่นใจว่าใช้งานง่าย จากนั้นพัฒนาแบ็คเอนด์โดยใช้ Node.js และ Express เพื่อสร้าง API สำหรับจัดการข้อมูลผลิตภัณฑ์ สำหรับฟรอนต์เอนด์ ให้ใช้ React เพื่อสร้างอินเทอร์เฟซผู้ใช้ที่ตอบสนองได้ และจัดการฐานข้อมูลผลิตภัณฑ์ของคุณด้วย MySQL เมื่อการพัฒนาเสร็จสิ้น ให้ทดสอบฟังก์ชันการทำงานของเว็บไซต์และทำการปรับปรุงที่จำเป็น",
+    ],
+  },
+  {
+    title: "Static-Page-info-html",
+    link: "https://chattakhupk.github.io/STATIC-PAGE-INFO-SPACE-HTML/",
+    code_name: "React | Tailwind | Firebase | Node",
+    iconBg: "#383E56",
+    icon: exp8,
+    date: "September 2024 - October 2024",
+    points: [
+      "ทำงานโดยการใช้ html css แบบเบื้องต้นทำหน้าเว็บแนะนำโลกพร้อมใส่คำอธิบายที่มีพื้นหลังเป็นวีดิโอ และมีการ responsive เว็บไซต์ ให้สวยในทุกแพลตฟอร์ม",
     ],
   },
   {

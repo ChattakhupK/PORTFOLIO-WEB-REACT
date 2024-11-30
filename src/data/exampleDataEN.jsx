@@ -25,6 +25,7 @@ import exp4 from "../assets/exp/image (3).png";
 import exp5 from "../assets/exp/image (2).png";
 import exp6 from "../assets/exp/image (10).png";
 import exp7 from "../assets/exp/image (9).png";
+import exp8 from "../assets/exp/image (11).png";
 
 import resumeTH from "../assets/resume/Resume_thai_ver.png";
 import resumeEN from "../assets/resume/Resume_eng_ver.png";
@@ -59,6 +60,17 @@ export const experiencesEN = [
     date: "October 2024 - Current",
     points: [
       "Creating an e-commerce website to sell computer equipment using modern technologies like React, Node.js, Express, and MySQL begins with planning your objectives and desired features, such as product search and a shopping cart system. Next, design the UI/UX with wireframes or mockups to ensure ease of use. Then, develop the backend using Node.js and Express to create an API for managing product data. For the frontend, use React to build a responsive user interface, and manage your product database with MySQL. Once development is complete, test the website's functionality and make necessary improvements.",
+    ],
+  },
+  {
+    title: "Static-Page-info-html",
+    link: "https://chattakhupk.github.io/STATIC-PAGE-INFO-SPACE-HTML/",
+    code_name: "React | Tailwind | Firebase | Node",
+    iconBg: "#383E56",
+    icon: exp8,
+    date: "September 2024 - October 2024",
+    points: [
+      "Working with basic html css to create a world introduction page with a description and a video background and a responsive website that looks good on all platforms.",
     ],
   },
   {
